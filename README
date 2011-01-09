@@ -1,0 +1,17 @@
+Based On:
+http://linuxcommando.blogspot.com/2008/08/how-to-show-apt-log-history.html
+
+Hosted At:
+https://github.com/blyork/apt-history
+ 
+Git Repository:
+git://github.com/blyork/apt-history.git
+
+Description:
+Parses dpkg log files to get package installation, removal, and rollback
+information.
+
+Ubuntu Server likes to split up the dpkg.log file and then compress the
+various pieces. After seeing LinuxCommando's function, I added functionality
+to pull the pieces back together. I also slightly adjusted the output to
+avoid false positives.
