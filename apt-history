@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Author:      Benjamin York
-### Date:        2010-01-08
+### Date:        2011-01-08
 ###
 ### Based On:
 ### http://linuxcommando.blogspot.com/2008/08/how-to-show-apt-log-history.html
@@ -63,7 +63,7 @@ do
             echo "     upgrade  - Lists all packages that have been upgraded."
             echo "     remove   - Lists all packages that have been removed."
             echo "     rollback - Lists rollback information."
-            echo "     list     - Lists all contains of dpkg logs."
+            echo "     list     - Lists all contents of dpkg logs."
             break
         ;;
     esac
