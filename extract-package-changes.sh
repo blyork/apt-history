@@ -8,7 +8,8 @@ if the package changelog conforms to debian packaging conventions.
 Sudo/root permissions are required to execute this script. The
 script "apt-history" needs to be in the executable path e.g. in
 /usr/bin
- 
+
+@dependency dpkg-dev
 @author Jeffery Fernandez <jeffery@fernandez.net.au>
 @since Thu, 11 Aug 2011 10:39:08 +1000
 '
